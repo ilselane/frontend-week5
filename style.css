@@ -26,34 +26,34 @@ body {
     padding: 4px 15px;
 }
 
-.site-name {
-    flex-basis: 4;
-    flex-grow: 4;
-    font-size: 1.5em;
-    font-weight: bold;
-}
+    .site-name {
+        flex-basis: 4;
+        flex-grow: 4;
+        font-size: 1.5em;
+        font-weight: bold;
+    }
 
-.navigation {
-    flex-basis: 1;
-    flex-grow: 1;
-}
+    .navigation {
+        flex-basis: 1;
+        flex-grow: 1;
+    }
 
-.navigation-list {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    font-size: 1em;
-}
+    .navigation-list {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        font-size: 1em;
+    }
 
-.nav-link {
-    color: var(--header-font);
-    text-decoration: none;
-}
+    .nav-link {
+        color: var(--header-font);
+        text-decoration: none;
+    }
 
-.nav-link:hover {
-    color: var(--header-font);
-    text-decoration: underline;
-}
+    .nav-link:hover {
+        color: var(--header-font);
+        text-decoration: underline;
+    }
 
 .mid-section {
     display: flex;
