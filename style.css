@@ -14,7 +14,9 @@ body {
     display: flex;
     flex-direction: column;
     font-family: sans-serif;
-    margin: 0 auto;
+    margin: 0 0;
+    min-height: 100vh;
+    /* Wat mis ik hier om hoogte altijd te stretchen over 100%? */
 }
 
 .header {
@@ -57,20 +59,49 @@ body {
 
 .mid-section {
     display: flex;
-
+    align-items: stretch;
 }
 
+    figure {
+        margin: 1.5rem;
+    }
+
+    img {
+        max-width:100%;
+    }
+
+    .sidebar {
+        background: #E7DECD;
+    }
+
+    .sidebar-title {
+        margin: 1.5rem 1.5rem;
+        font-size: 1rem;
+    }
+
     .sidebar-left {
+        flex-grow: 1;
+        flex-shrink: 2;
+        flex-basis: 25%;
         order: 1;
     }
 
     .main-content {
+        flex-grow: 2;
+        flex-shrink: 1;
+        flex-basis: 50%;
         order: 2;
+        font-family: serif;
+        padding: 0rem 1.5rem;
     }
 
     .sidebar-right {
+        flex-grow: 1;
+        flex-shrink: 2;
+        flex-basis: 25%;
         order: 3;
     }
+
 .footer {
     background-color: var(--footer-bg);
     font-size: 1em;
