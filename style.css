@@ -16,7 +16,6 @@ body {
     font-family: sans-serif;
     margin: 0 0;
     min-height: 100vh;
-    /* Wat mis ik hier om hoogte altijd te stretchen over 100%? */
 }
 
 .header {
@@ -59,7 +58,7 @@ body {
 
 .mid-section {
     display: flex;
-    align-items: stretch;
+    flex: 1;
 }
 
     figure {
